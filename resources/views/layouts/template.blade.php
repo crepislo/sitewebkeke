@@ -11,6 +11,9 @@
     <meta name="description" content="Logimax - Logistics & Transportation HTML Template">
     <!-- ======== Page title ============ -->
     <title>@yield('titre')</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+    </style>
     <!--<< Favcion >>-->
     <link rel="shortcut icon" href="assets/img/logo/favicon.svg">
     <!--<< Bootstrap min.css >>-->
