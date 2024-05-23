@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('lang/change/{lang}', [LangController::class, 'change'])->name('changeLang');
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+Route::get('contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('services', [HomeController::class, 'services'])->name('services');
