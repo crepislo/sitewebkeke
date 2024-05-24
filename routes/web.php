@@ -21,3 +21,5 @@ Route::get('/', function () {
 })->name('index');
 Route::get('contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('services', [HomeController::class, 'services'])->name('services');
+Route::get('travailler', [HomeController::class, 'travailler'])->name('travailler');
+Route::get('apropos', [HomeController::class, 'apropos'])->name('apropos');

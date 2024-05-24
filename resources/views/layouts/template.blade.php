@@ -8,14 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="modinatheme">
-    <meta name="description" content="Logimax - Logistics & Transportation HTML Template">
+    <meta name="description" content="Kèkè Logistic - La simplifiée">
     <!-- ======== Page title ============ -->
     <title>@yield('titre')</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
     </style>
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="assets/img/logo/favicon.svg">
+    <link rel="shortcut icon" href="assets/img/logo/favicon.jpg">
     <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--<< Font Awesome.css >>-->
@@ -126,11 +126,7 @@
                         </div>
                     </div>
                     <p class="text d-none d-lg-block">
-                        Nous connectons les propriétaires de cargaisons avec les routiers et les espaces d’entrepôt
-                        adaptés à leurs besoins
-                        commerciaux. Grâce à l’optimisation des itinéraires et des espaces de stockage, nous simplifions
-                        le processus de la chaîne
-                        d’approvisionnement pour les entreprises et utilisons les données pour accroître l’efficacité.
+                        {{ __('messages.slider') }}
                     </p>
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">

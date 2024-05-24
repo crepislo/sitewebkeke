@@ -15,7 +15,7 @@
                 </ul>
                 <div class="top-right">
                     <div class="social-icon d-flex align-items-center">
-                        <span>Réseaux sociaux:</span>
+                        <span>{{ __('messages.réseaux sociaux') }}:</span>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -50,29 +50,32 @@
                                         </li>
 
                                         <li>
-                                            <a href="#">A propos</a>
+                                            <a href="{{ route('apropos') }}">
+                                                {{ __('messages.a propos') }}
+                                            </a>
                                         </li>
+
                                         <li>
-                                            <a href="#">
-                                                Travailler avec nous
+                                            <a href="{{ route('services') }}">
+                                                {{ __('messages.services') }}
+
+                                            </a>
+                                        </li>
+
+
+
+
+                                        <li>
+                                            <a href="{{ route('travailler') }}">
+                                                {{ __('messages.travailler avec nous') }}
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="">Services</a></li>
-                                                <li><a href="">Service Details</a></li>
+                                                <li><a href=""></a></li>
+                                                <li><a href=""></a></li>
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="">
-                                                Blog
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="news.html">Blog</a></li>
-                                                <li><a href="news-sidebar.html">Blog Sidebar</a></li>
-                                                <li><a href="news-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
+
 
                                         <li>
                                             <a href="">Contact</a>

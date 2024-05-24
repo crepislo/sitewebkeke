@@ -7,20 +7,31 @@
                     <div class="single-footer-widget">
                         <div class="widget-head">
                             <a href="index.html">
-                                <img src="assets/img/logo/footer-logo.svg" alt="logo-img">
+
                             </a>
                         </div>
                         <div class="footer-content" style="color:#000;">
+                            <h6 style="color:#000;"><a href="" style="color:#000;">Contact Bénin</a></h6>
                             <p style="color:#000;">
                                 Cotonou <br>
-                                Bénin
+                                Bénin<br>
+                                E-mail: contact@kekelogistic.com
                             </p>
-                            <h6 style="color:#000;"><a href="" style="color:#000;">+229 45576610</a></h6>
+                            <p style="color:#000;"><a href="" style="color:#000;">+229 45576610</a></p><br>
+
+                            <h6 style="color:#000;"><a href="" style="color:#000;">Contact USA</a></h6>
+                            <p style="color:#000;">
+                                Cotonou <br>
+                                Bénin<br>
+                                E-mail: contact@kekelogistic.com
+                            </p>
+
+                            <p style="color:#000;"><a href="" style="color:#000;">+1 (617) 309-8535</a></p>
+
                             <div class="social-icon d-flex align-items-center">
                                 <a href="#"style="color:#000;"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" style="color:#000;"><i class="fab fa-twitter"></i></a>
-                                <a href="#"style="color:#000;" class="active"><i
-                                        class="fab fa-youtube"></i></a>
+                                <a href="#"style="color:#000;" class="active"><i class="fab fa-youtube"></i></a>
                                 <a href="#" style="color:#000;"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
@@ -29,28 +40,32 @@
                 <div class="col-xl-2 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <h3 style="color:#000;">Navigation</h3>
+                            <h3 style="color:#000;"> {{ __('messages.Navigation') }}</h3>
                         </div>
                         <ul class="list-area">
-                            <li><a href=""style="color:#000;">A propos</a></li>
-                            <li><a href=""style="color:#000;">Conditions général d'itulisation</a></li>
-                            <li><a href="" style="color:#000;">Enregistrer un magasin</a></li>
-                            <li><a href="" style="color:#000;">Enregistrer un tranporteur</a></li>
-                            <li><a href="" style="color:#000;">Commander une course</a></li>
+                            <li><a href=""style="color:#000;">{{ __('messages.a propos') }}</a></li>
+
+                            <li><a href="" style="color:#000;"> {{ __('messages.Enregistrer un camion') }}</a>
+                            </li>
+                            <li><a href="" style="color:#000;"> {{ __('messages.Enregistrer un magasin') }}</a>
+                            </li>
+                            <li><a href="" style="color:#000;">
+                                    {{ __('messages.Reservez un espace de stockage') }}</a></li>
+                            <li><a href="" style="color:#000;">{{ __('messages.commander une course') }}</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-3 ps-lg-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <h3 style="color:#000;">Liens Utiles</h3>
+                            <h3 style="color:#000;">{{ __('messages.Navigation') }}</h3>
                         </div>
                         <ul class="list-area">
-                            <li><a href="" style="color:#000;">Service</a></li>
-                            <li><a href="" style="color:#000;">Login</a></li>
-                            <li><a href="" style="color:#000;">Paiement</a></li>
-                            <li><a href="" style="color:#000;">Service paiement</a></li>
-                            <li><a href="" style="color:#000;">Nos règles</a></li>
+                            <li><a href="" style="color:#000;">Services</a></li>
+                            <li><a href="" style="color:#000;">{{ __('messages.Connexion') }}</a></li>
+                            <li><a href="" style="color:#000;">{{ __('messages.Paiement') }} </a></li>
+                            <li><a href="" style="color:#000;">{{ __('messages.Partenaires') }}</a></li>
+                            <li><a href="" style="color:#000;">{{ __('messages.Nos règles') }}</a></li>
                             <li><a href="" style="color:#000;">Kèkè+</a></li>
                             <li><a href="" style="color:#000;">Contact</a></li>
                         </ul>
@@ -69,7 +84,7 @@
                                 </button>
                             </div>
                             <p style="color:#000;">
-                                Merci de vous abonner à notre newsletter <br>
+                                {{ __('messages.Merci de vous abonner à notre newsletter') }} <br>
 
                             </p>
                         </div>

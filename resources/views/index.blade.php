@@ -22,28 +22,22 @@
                             <div class="col-lg-8">
                                 <div class="hero-content">
                                     <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s">LA
-                                        LOGISTIQUE
-                                        SIMPLIFIÉE</h5>
+                                        {{ __('messages.la logistique simplifiée') }}</h5>
                                     <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
                                         KÈKÈ LOGISTIC<br>
 
                                     </h1>
                                     <p data-animation="slideInRight" data-duration="2s" data-delay=".9s">
-                                        Nous connectons les propriétaires de cargaisons avec les routiers et les espaces
-                                        d’entrepôt adaptés à leurs besoins
-                                        commerciaux. Grâce à l’optimisation des itinéraires et des espaces de
-                                        stockage, nous simplifions le processus de la chaîne
-                                        d’approvisionnement pour les entreprises et utilisons les données pour accroître
-                                        l’efficacité.
+                                        {{ __('messages.slider') }}
                                     </p>
                                     <div class="hero-button">
                                         <a href="service.html" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn hover-white">
-                                            COMMANDER UNE COURSE
+                                            {{ __('messages.commander une course') }}
                                         </a>
                                         <a href="contact.html" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn bg-white">
-                                            RESERVEZ UN ESPACE DE STOCKAGE
+                                            {{ __('messages.Reservez un espace de stockage') }}
                                         </a>
                                     </div>
                                 </div>
@@ -61,28 +55,22 @@
                             <div class="col-lg-8">
                                 <div class="hero-content">
                                     <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s">LA
-                                        LOGISTIQUE
-                                        SIMPLIFIÉE</h5>
+                                        {{ __('messages.la logistique simplifiée') }}</h5>
                                     <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
                                         KÈKÈ LOGISTIC <br>
 
                                     </h1>
                                     <p data-animation="slideInRight" data-duration="2s" data-delay=".9s">
-                                        Nous connectons les propriétaires de cargaisons avec les routiers et les espaces
-                                        d’entrepôt adaptés à leurs besoins
-                                        commerciaux. Grâce à l’optimisation des itinéraires et des espaces de
-                                        stockage, nous simplifions le processus de la chaîne
-                                        d’approvisionnement pour les entreprises et utilisons les données pour accroître
-                                        l’efficacité.
+                                        {{ __('messages.slider') }}
                                     </p>
                                     <div class="hero-button">
                                         <a href="contact.html" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn hover-white">
-                                            ENREGISTRER UN CAMION
+                                            {{ __('messages.Enregistrer un camion') }}
                                         </a>
                                         <a href="contact.html" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn bg-white">
-                                            ENREGISTRER UN MAGASIN
+                                            {{ __('messages.Enregistrer un magasin') }}
                                         </a>
                                     </div>
                                 </div>
@@ -99,28 +87,22 @@
                             <div class="col-lg-8">
                                 <div class="hero-content">
                                     <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s">LA
-                                        LOGISTIQUE
-                                        SIMPLIFIÉ</h5>
+                                        {{ __('messages.la logistique simplifiée') }}</h5>
                                     <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
                                         KÈKÈ LOGISTIC <br>
 
                                     </h1>
                                     <p data-animation="slideInRight" data-duration="2s" data-delay=".9s">
-                                        Nous connectons les propriétaires de cargaisons avec les routiers et les espaces
-                                        d’entrepôt adaptés à leurs besoins
-                                        commerciaux. Grâce à l’optimisation des itinéraires et des espaces de
-                                        stockage, nous simplifions le processus de la chaîne
-                                        d’approvisionnement pour les entreprises et utilisons les données pour accroître
-                                        l’efficacité.
+                                        {{ __('messages.slider') }}
                                     </p>
                                     <div class="hero-button">
                                         <a href="about.html" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn hover-white">
-                                            Explore More
+                                            {{ __('messages.commander une course') }}
                                         </a>
                                         <a href="contact.html" data-animation="slideInRight" data-duration="2s"
                                             data-delay=".9s" class="theme-btn bg-white">
-                                            Contact Us
+                                            {{ __('messages.Reservez un espace de stockage') }}
                                         </a>
                                     </div>
                                 </div>
@@ -134,56 +116,6 @@
 
     <!-- About Section Start -->
 
-    <!-- About Section Start -->
-    <!--   <section class="about-section fix section-padding">
-                        <div class="about-wrapper-2">
-                            <div class="arrow-shape">
-                                <img src="assets/img/about/arrow-shape.png" alt="shape-img">
-                            </div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="about-image-area">
-                                            <div class="about-image wow fadeInUp bg-cover" data-wow-delay=".3s"
-                                                style="background-image: url('assets/img/about/about-camion.jpg');">
-                                                <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                                    <img src="assets/img/about/" alt="about-img">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-8 mt-xl-0 mt-5">
-                                        <div class="about-content">
-                                            <div class="section-title style-2">
-                                                <span class="wow fadeInUp">KÈKÈ LOGISTIC</span>
-                                                <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                                                    LA LOGISTIQUE SIMPLIFIÉE
-                                                </h2>
-                                            </div>
-                                            <p class="mt-md-0 wow fadeInUp mt-3" data-wow-delay=".5s">
-                                                KEKE LOGISTICS regroupe les opérations de transport et de stockage pour permettre aux
-                                                entreprises, aux camionneurs et aux installations de stockage d’effectuer des
-                                                transactions en toute sécurité et d’instaurer la confiance dans le processus. <br><br>
-
-                                                Nous offrons à nos clients une visibilité unique sur la chaîne d’approvisionnement grâce
-                                                à un tableau de bord intégré. Toutes vos données sont sécurisées par cryptage.Nous
-                                                connectons les propriétaires de cargaisons avec les routiers et les espaces d’entrepôt
-                                                adaptés à leurs besoins commerciaux. Grâce à l’optimisation des itinéraires et des
-                                                espaces de stockage, nous simplifions le processus de la chaîne d’approvisionnement pour
-                                                les entreprises et utilisons les données pour accroître l’efficacité. <br><br>
-
-                                                Efficacité, traçabilité et optimisation sont des principes clés de notre service.
-                                            </p><br>
-
-
-                                            <a href="about.html" class="theme-btn wow fadeInUp" data-wow-delay=".7s">
-                                                EN SAVOIR+</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>-->
 
     <section class="feature-section fix section-padding" style="background-color:#FFF;">
         <div class="container">
@@ -193,31 +125,23 @@
                         <div class="about-content">
                             <div class="section-title style-2">
 
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">LA LOGISTIQUE
-                                    SIMPLIFIÉE
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
+                                    {{ __('messages.la logistique simplifiée') }}
                                 </h2>
                             </div>
                             <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
-                                KEKE LOGISTICS regroupe les opérations de transport et de stockage pour permettre aux
-                                entreprises, aux camionneurs et aux installations de stockage d’effectuer des
-                                transactions en toute sécurité et d’instaurer la confiance dans le processus. <br><br>
-
-                                Nous offrons à nos clients une visibilité unique sur la chaîne d’approvisionnement grâce
-                                à un tableau de bord intégré. Toutes vos données sont sécurisées par cryptage.Nous
-                                connectons les propriétaires de cargaisons avec les routiers et les espaces d’entrepôt
-                                adaptés à leurs besoins commerciaux. Grâce à l’optimisation des itinéraires et des
-                                espaces de stockage, nous simplifions le processus de la chaîne d’approvisionnement pour
-                                les entreprises et utilisons les données pour accroître l’efficacité. <br><br>
+                                {{ __('messages.SIMPLIFIE1') }}<br><br>
+                                {{ __('messages.SIMPLIFIE2') }}<br><br>
 
                             </p>
                             <div class="hero-button">
                                 <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
                                     class="theme-btn hover-white">
-                                    Enregistrer un magasin
+                                    {{ __('messages.Enregistrer un magasin') }}
                                 </a>
                                 <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
                                     class="theme-btn bg-BLACK">
-                                    ENREGISTRER un camion
+                                    {{ __('messages.Enregistrer un camion') }}
                                 </a>
                             </div>
                         </div>
@@ -233,6 +157,7 @@
     </section>
 
     <section class="feature-section fix section-padding" style="background-color:#f2ba5e;">
+
         <div class="container">
             <div class="feature-wrapper">
                 <div class="row justify-content-between"style="background-color:#;">
@@ -240,36 +165,32 @@
                     <div class="col-xl-6 col-lg-6 mt-lg-0 wow fadeInUp mt-5" data-wow-delay=".4s">
                         <div class="feature-image" style="background-color:#000;">
                             <img src="assets/img/choose/backoffice-keke.jpg" alt="img">
+
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
                         <div class="about-content">
                             <div class="section-title style-2">
+                                <br><br>
 
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">NOTRE OBJECTIF
+
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
+                                    {{ __('messages.NOTRE OBJECTIFS') }}
                                 </h2>
                             </div>
                             <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
-                                KEKE LOGISTICS regroupe les opérations de transport et de stockage pour permettre aux
-                                entreprises, aux camionneurs et aux installations de stockage d’effectuer des
-                                transactions en toute sécurité et d’instaurer la confiance dans le processus. <br><br>
-
-                                Nous offrons à nos clients une visibilité unique sur la chaîne d’approvisionnement grâce
-                                à un tableau de bord intégré. Toutes vos données sont sécurisées par cryptage.Nous
-                                connectons les propriétaires de cargaisons avec les routiers et les espaces d’entrepôt
-                                adaptés à leurs besoins commerciaux. Grâce à l’optimisation des itinéraires et des
-                                espaces de stockage, nous simplifions le processus de la chaîne d’approvisionnement pour
-                                les entreprises et utilisons les données pour accroître l’efficacité. <br><br>
+                                {{ __('messages.OBJECTIF') }} <br><br>
+                                {{ __('messages.OBJECTIF1') }} <br><br>
 
                             </p>
                             <div class="hero-button">
                                 <a href="about.html" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
                                     class="theme-btn hover-white">
-                                    COMMANDER UNE COURSE
+                                    {{ __('messages.commander une course') }}
                                 </a>
                                 <a href="contact.html" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
                                     class="theme-btn bg-white">
-                                    RESERVEZ ESPACE DE STOCKAGE
+                                    {{ __('messages.Reservez un espace de stockage') }}
                                 </a>
                             </div>
 
@@ -292,7 +213,7 @@
                         <span class="wow fadeInUp">KÈKÈ LOGISTICS</span>
                         <h2 class="wow fadeInUp" data-wow-delay=".3s">
 
-                            <span> NOS VALEURS</span>
+                            <span> {{ __('messages.NOS VALEURS') }}</span>
                         </h2>
                     </div>
                 </div>
@@ -309,12 +230,12 @@
                         <div class="content">
                             <h5>
                                 <a href="">
-                                    Optimisation et Agrégation
+                                    {{ __('messages.Optimisation et Agrégation') }}
                                 </a>
                             </h5>
                             <p>
-                                Pour des livraisons plus rapides et efficaces.
-                                Des camions et d’espaces de stockage pour offrir plus d’options à nos clients.
+                                {{ __('messages.Optimisation et Agrégation1') }}
+
                             </p>
 
                         </div>
@@ -327,12 +248,12 @@
                         </div>
                         <div class="content">
                             <h5>
-                                <a href="service-details.html">
-                                    Traçabilité
+                                <a href="">
+                                    {{ __('messages.Traçabilité') }}
                                 </a>
                             </h5>
                             <p>
-                                Pour instaurer la confiance dans la chaîne d’approvisionnement de bout en bout
+                                {{ __('messages.Traçabilité1') }}
 
                             </p>
                             <br><br>
@@ -347,13 +268,11 @@
                         <div class="content">
                             <h5>
                                 <a href="service-details.html">
-                                    Visibilité
+                                    {{ __('messages.Visibilité') }}
                                 </a>
                             </h5>
                             <p>
-                                Un tableau de bord intégré pour permettre à
-                                nos clients de prendre le contrôle de leurs besoins et d’accéder à des données
-                                exploitables.
+                                {{ __('messages.Visibilité1') }}
                             </p>
 
                         </div>
@@ -367,11 +286,11 @@
                         <div class="content">
                             <h5>
                                 <a href="service-details.html">
-                                    Sécurité
+                                    {{ __('messages.Sécurité') }}
                                 </a>
                             </h5>
                             <p>
-                                Toutes vos données sont sécurisées grâce à un cryptage de dernière génération
+                                {{ __('messages.Sécurité1') }}
                             </p>
                             <br><br>
                         </div>
@@ -390,22 +309,12 @@
                         <div class="about-content">
                             <div class="section-title style-2">
 
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">NOTRE VISION
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
+                                    {{ __('messages.NOTRE VISION') }}
                                 </h2>
                             </div>
                             <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
-                                Une économie dynamique repose sur un système efficace. Nous soutenons une économie
-                                africaine dynamique et devenons un acteur clé dans le développement et l’accélération du
-                                marché unique africain (AfCFTA). <br><br>
-
-                                Nous pensons qu’un service remarquable commence et se termine avec des professionnels
-                                expérimentés et sympathiques. C’est pourquoi nous accordons autant d’attention à la
-                                sélection des meilleurs pour rejoindre notre équipe.
-                                Nous allons au-delà des attentes pour nouer des relations durables avec nos
-                                clients.<br><br>
-
-                                Nous recherchons toujours de grands talents, alors si vous envisagez de rejoindre
-                                l’équipe Kèkè, envoyez-nous un message.<br><br>
+                                {{ __('messages.NOTRE VISION1') }}
 
                             </p>
 
@@ -434,10 +343,11 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-xl-5 col-lg-6">
                         <div class="section-title style-2">
-                            <span class="wow fadeInUp" style="color:#fff;">Partenaires satisfaits</span>
+                            <span class="wow fadeInUp" style="color:#fff;">
+                                {{ __('messages.Partenaires Satisfaits') }}</span>
                             <h2 class="wow fadeInUp" data-wow-delay=".3s">
 
-                                <span style="color:#f2ba5e;">Nos témoignages</span>
+                                <span style="color:#f2ba5e;"> {{ __('messages.Temoignages') }}</span>
                             </h2>
                         </div>
 
@@ -451,10 +361,7 @@
                                             style="background-image: url('assets/img/client/site-icon.png');"></div>
                                         <div class="testiminial-content">
                                             <p style="color:#fff;">
-                                                Kèkè change l'expérience logistique au Bénin et en Afrique. Nous n’avons
-                                                plus
-                                                à nous soucier que nos marchandises arrivent sur le marché à temps et
-                                                intactes.
+                                                {{ __('messages.Isidore') }}
                                             </p>
                                             <h4 style="color:#fff;">Isidore TOWANOU</h4>
 
@@ -467,10 +374,7 @@
                                             style="background-image: url('assets/img/client/site-icon.png');"></div>
                                         <div class="testiminial-content">
                                             <p style="color:#fff;">
-                                                Dans un secteur où il est difficile de faire confiance, cette plateforme
-                                                a construit
-                                                quelque chose de vraiment unique. Nous attendons avec impatience de
-                                                nombreuses autres transactions à l’avenir.
+                                                {{ __('messages.Morel') }}
                                             </p>
                                             <h4 style="color:#fff;"> Morel ZINSOU</h4>
 
@@ -483,10 +387,7 @@
                                             style="background-image: url('assets/img/client/site-icon.png');"></div>
                                         <div class="testiminial-content">
                                             <p style="color:#fff;">
-                                                En tant que transporteur, je peux trouver des clients facilement et sans
-                                                tracas.
-                                                Kèkè est un excellent moyen de compléter nos commandes permanentes et
-                                                nos clients
+                                                {{ __('messages.Chantal') }}
                                             </p>
                                             <h4 style="color:#fff;">Chantal CLOUSSE</h4>
 
@@ -521,34 +422,25 @@
                         <div class="productive-content">
                             <div class="section-title style-2">
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
-                                    POURQUOI NOUS CHOISIR? <br>
+                                    {{ __('messages.POURQUOI NOUS CHOISIR') }} <br>
 
                                 </h2>
                             </div>
                             <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
-                                Nous existons pour répondre aux défis d’un écosystème fragmenté et inefficace. Que vous
-                                soyez commerçant,
-                                fabricant ou propriétaire de marchandises, la sécurité de votre produit est primordiale
-                                pendant le transport
-                                ou le stockage. Nous nous faisons un devoir de garantir que vous ayez accès
-                                à des camionneurs sélectionnés et à un espace de stockage grâce à une expérience
-                                transparente.
-                                Déplacez votre cargaison en toute confiance.
+                                {{ __('messages.POURQUOI NOUS CHOISIR1') }}
+
                             </p>
                             <BR> <BR>
                             <div class="section-title style-2">
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
-                                    NOTRE MISSION <br>
+                                    {{ __('messages.NOTRE MISSION') }} <br>
 
                                 </h2>
                             </div>
                             </h2>
                             <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
 
-                                La logistique simplifiée est notre mission principale. Nous travaillerons avec tous les
-                                partenaires qui ont un
-                                intérêt et désir de voir plus de professionnalisme,
-                                d’excellence, et de traçabilité dans la chaîne logistique de bout-en-bout.
+                                {{ __('messages.NOTRE MISSION1') }}
                             </p> <BR><BR>
 
                         </div>
@@ -565,7 +457,7 @@
             <div class="cta-wrapper-2">
                 <div class="cta-content">
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
-                        VIDÉO DEMO <br>
+                        {{ __('messages.VIDÉO DEMO') }} <br>
 
                     </h2>
                     <a href="" class="video-icon video-popup wow fadeInUp" data-wow-delay=".5s">
