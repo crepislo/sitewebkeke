@@ -15,4 +15,11 @@ class HomeController extends Controller
     {
         return view('services');
     }
+
+    public function apropos()
+    {
+        return view('apropos');
+    }
+
+    
 }

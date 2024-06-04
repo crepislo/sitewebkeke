@@ -150,14 +150,15 @@ Version: 1.0.0
 
 @media (max-width: 767px) {
     .theme-btn {
-        padding: 14px 32px;
+        padding: 15px 15px;
+
     }
 }
 
 @media (max-width: 575px) {
     .theme-btn {
-        padding: 12px 30px;
-        font-size: 13px;
+        padding: 15px 15px;
+        font-size: 10px;
     }
 }
 
@@ -174,7 +175,7 @@ Version: 1.0.0
 }
 
 .link-btn i {
-    margin-left: 10px;
+    margin-left: 20;
     font-size: 16px;
     transition: all 0.4s ease-in-out;
     opacity: 0;
@@ -658,6 +659,7 @@ input.main-search-input::placeholder {
 @media (max-width: 767px) {
     .section-title {
         margin-bottom: 0;
+        margin-top: 46px;
     }
 }
 
@@ -4165,7 +4167,7 @@ input.main-search-input::placeholder {
     color: var(--header);
     background-color: var(--bg);
     width: 300px;
-    padding: 15px 20px;
+    padding: 5px 20px;
     transition: all 0.4s ease-in-out;
 }
 

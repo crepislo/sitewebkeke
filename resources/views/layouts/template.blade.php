@@ -115,8 +115,8 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top d-flex justify-content-between align-items-center mb-5">
                         <div class="offcanvas__logo">
-                            <a href="index.html">
-                                <img src="assets/img/logo/logo-keke-30.jpg" alt="logo-img">
+                            <a href="{{ route('index') }}">
+                                <img src="assets/img/logo/logo-keke.png" alt="logo-img">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -137,7 +137,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Cotonou, Bénin</a>
+                                    <a target="_blank" href="{{ route('index') }}">Cotonou, Bénin</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -154,7 +154,7 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Lun-Vend, 08H -18H30</a>
+                                    <a target="_blank" href="{{ route('index') }}">Lun-Vend, 08H -18H30</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -162,12 +162,12 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+229 45576610</a>
+                                    <a href="tel:+11002345909">+229 45576610 / +1 (617) 309-8535</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
-                            <a href="contact.html" class="theme-btn text-center">
+                            <a href="{{ route('contact') }}" class="theme-btn text-center">
                                 Contact Us
                             </a>
                         </div>

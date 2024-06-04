@@ -6,11 +6,11 @@
                 <ul class="contact-list">
                     <li>
                         <i class="far fa-envelope"></i>
-                        <a href="mailto:info@example.com" class="link">info@kekelogistic.com</a>
+                        <a href="info@kekelogistic.com" class="link">info@kekelogistic.com</a>
                     </li>
                     <li>
                         <i class="fas fa-phone-alt"></i>
-                        <a href="tel:2086660112">+229 45576610</a>
+                        <a href="tel:2086660112">+229 45576610 / +1 (617) 309-8535</a>
                     </li>
                 </ul>
                 <div class="top-right">
@@ -62,23 +62,34 @@
                                             </a>
                                         </li>
 
-
-
-
-                                        <li>
-                                            <a href="{{ route('travailler') }}">
-                                                {{ __('messages.travailler avec nous') }}
+                                        <li class="has-dropdown">
+                                            <a href="{ route('travailler') }}"
+                                                class="">{{ __('messages.travailler avec nous') }}
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href=""></a></li>
-                                                <li><a href=""></a></li>
+
+                                                <li><a href="" class="">CLIENT</a>
+                                                </li>
+
+                                                <li><a href="" class="">DÉPLACER DU FRET</a>
+                                                </li>
+
+                                                <li><a href="" class="">ENREGISTRER UN ENTREPÔT</a>
+                                                </li>
+
+                                                <li><a href="" class="">ENREGISTRER UN ENTREPÔT</a>
+                                                </li>
+
+                                                <li><a href="" class="">ENREGISTRER UN CAMION</a>
+                                                </li>
+
                                             </ul>
                                         </li>
 
 
                                         <li>
-                                            <a href="">Contact</a>
+                                            <a href="{{ route('contact') }}">Contact</a>
                                         </li>
                                         <li class="has-dropdown">
                                             <a href="{{ route('changeLang', 'fr') }}"

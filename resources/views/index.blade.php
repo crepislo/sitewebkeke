@@ -95,15 +95,17 @@
                                     <p data-animation="slideInRight" data-duration="2s" data-delay=".9s">
                                         {{ __('messages.slider') }}
                                     </p>
-                                    <div class="hero-button">
-                                        <a href="about.html" data-animation="slideInRight" data-duration="2s"
-                                            data-delay=".9s" class="theme-btn hover-white">
-                                            {{ __('messages.commander une course') }}
-                                        </a>
-                                        <a href="contact.html" data-animation="slideInRight" data-duration="2s"
-                                            data-delay=".9s" class="theme-btn bg-white">
-                                            {{ __('messages.Reservez un espace de stockage') }}
-                                        </a>
+                                    <div class="col-lg-8">
+                                        <div class="hero-button">
+                                            <a href="" data-animation="slideInRight" data-duration="2s"
+                                                data-delay=".9s" class="theme-btn hover-white">
+                                                {{ __('messages.commander une course') }}
+                                            </a>
+                                            <a href="" data-animation="slideInRight" data-duration="2s"
+                                                data-delay=".9s" class="theme-btn bg-white">
+                                                {{ __('messages.Reservez un espace de stockage') }}
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -134,16 +136,19 @@
                                 {{ __('messages.SIMPLIFIE2') }}<br><br>
 
                             </p>
-                            <div class="hero-button">
-                                <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
-                                    class="theme-btn hover-white">
-                                    {{ __('messages.Enregistrer un magasin') }}
-                                </a>
-                                <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
-                                    class="theme-btn bg-BLACK">
-                                    {{ __('messages.Enregistrer un camion') }}
-                                </a>
+                            <div class="hero-content">
+                                <div class="hero-button">
+                                    <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
+                                        class="theme-btn hover-white">
+                                        {{ __('messages.Enregistrer un magasin') }}
+                                    </a>
+                                    <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
+                                        class="theme-btn bg-BLACK">
+                                        {{ __('messages.Enregistrer un camion') }}
+                                    </a>
+                                </div>
                             </div>
+
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 mt-lg-0 wow fadeInUp mt-5" data-wow-delay=".4s">
@@ -162,7 +167,7 @@
             <div class="feature-wrapper">
                 <div class="row justify-content-between"style="background-color:#;">
 
-                    <div class="col-xl-6 col-lg-6 mt-lg-0 wow fadeInUp mt-5" data-wow-delay=".4s">
+                    <div class="col-xl-6 col-lg-6 mt-lg wow fadeInUp mt-5" data-wow-delay=".4s">
                         <div class="feature-image" style="background-color:#000;">
                             <img src="assets/img/choose/backoffice-keke.jpg" alt="img">
 
@@ -188,7 +193,7 @@
                                     class="theme-btn hover-white">
                                     {{ __('messages.commander une course') }}
                                 </a>
-                                <a href="contact.html" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
+                                <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
                                     class="theme-btn bg-white">
                                     {{ __('messages.Reservez un espace de stockage') }}
                                 </a>
@@ -200,6 +205,9 @@
             </div>
         </div>
     </section>
+
+
+
 
     <!-- Service Provide Section Start -->
     <section class="service-provide section-padding">
@@ -406,42 +414,62 @@
         </div>
     </section>
 
-    <!-- Service Productive Section Start -->
-    <section class="service-productive section-padding">
-        <div class="circle-shape">
-            <img src="assets/img/circle-shape.png" alt="shape-img" class="text-circle">
-        </div>
-        <div class="container">
-            <div class="service-productive-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-xl-6">
-                        <div class="service-productive-image bg-cover"
-                            style="background-image: url('assets/img/choose/application-keke.jpg');"></div>
-                    </div>
-                    <div class="col-xl-6 col-lg-8 mt-xl-0 mt-5">
-                        <div class="productive-content">
-                            <div class="section-title style-2">
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
-                                    {{ __('messages.POURQUOI NOUS CHOISIR') }} <br>
 
+
+    <section class="feature-section fix section-padding" style="background-color:#fff;">
+
+        <div class="container">
+            <div class="feature-wrapper">
+                <div class="row justify-content-between"style="background-color:#;">
+
+                    <div class="col-xl-6 col-lg-6 mt-lg wow fadeInUp mt-5" data-wow-delay=".4s">
+                        <div class="feature-image" style="background-color:#000;">
+                            <img src="assets/img/choose/application-keke.jpg" alt="img">
+
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="about-content">
+                            <div class="section-title style-2">
+                                <br><br>
+
+
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
+                                    {{ __('messages.POURQUOI NOUS CHOISIR') }}
                                 </h2>
                             </div>
                             <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
-                                {{ __('messages.POURQUOI NOUS CHOISIR1') }}
+                                {{ __('messages.POURQUOI NOUS CHOISIR1') }} <br><br>
+
 
                             </p>
-                            <BR> <BR>
-                            <div class="section-title style-2">
-                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
-                                    {{ __('messages.NOTRE MISSION') }} <br>
 
+                            <div class="section-title style-2">
+
+
+
+                                <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#427643;">
+                                    {{ __('messages.NOTRE MISSION') }}
                                 </h2>
                             </div>
-                            </h2>
-                            <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
 
+                            <p class="mt-md-0 wow fadeInUp mt-4" data-wow-delay=".5s" style="color:#000;">
                                 {{ __('messages.NOTRE MISSION1') }}
-                            </p> <BR><BR>
+
+
+                            </p>
+
+
+                            <div class="hero-button">
+                                <a href="about.html" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
+                                    class="theme-btn hover-white">
+                                    {{ __('messages.commander une course') }}
+                                </a>
+                                <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".9s"
+                                    class="theme-btn bg-white">
+                                    {{ __('messages.Reservez un espace de stockage') }}
+                                </a>
+                            </div>
 
                         </div>
                     </div>
@@ -449,6 +477,10 @@
             </div>
         </div>
     </section>
+
+
+
+
 
     <!-- Cta Section Start -->
     <section class="cta-section-2 style-2 fix section-padding bg-cover"
