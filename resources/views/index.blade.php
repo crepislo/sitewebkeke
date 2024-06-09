@@ -21,7 +21,7 @@
                         <div class="row g-4 align-items-center">
                             <div class="col-lg-8">
                                 <div class="hero-content">
-                                    <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s">LA
+                                    <h5 data-animation="slideInRight" data-duration="2s" data-delay=".3s">
                                         {{ __('messages.la logistique simplifiée') }}</h5>
                                     <h1 data-animation="slideInRight" data-duration="2s" data-delay=".5s">
                                         KÈKÈ LOGISTIC<br>
