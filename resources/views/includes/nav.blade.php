@@ -31,7 +31,7 @@
                 <div class="header-main style-2">
                     <div class="header-left">
                         <div class="logo">
-                            <a href="index.html" class="header-logo">
+                            <a href="{{ route('index') }}" class="header-logo">
                                 <img src="assets/img/logo/logo-keke-30.jpg" alt="logo-img">
                             </a>
                         </div>
@@ -63,7 +63,7 @@
                                         </li>
 
                                         <li class="has-dropdown">
-                                            <a href="{ route('travailler') }}"
+                                            <a href="{{ route('travailler') }}"
                                                 class="">{{ __('messages.travailler avec nous') }}
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
@@ -86,7 +86,6 @@
 
                                             </ul>
                                         </li>
-
 
                                         <li>
                                             <a href="{{ route('contact') }}">Contact</a>

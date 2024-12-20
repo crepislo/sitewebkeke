@@ -6,9 +6,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <a href="index.html">
-
-                            </a>
+                            <a href="{{ route('index') }}"> </a>
                         </div>
                         <div class="footer-content" style="color:#000;">
                             <h6 style="color:#000;"><a href="" style="color:#000;">Contact Bénin</a></h6>
@@ -45,11 +43,11 @@
                         <ul class="list-area">
                             <li><a href=""style="color:#000;">{{ __('messages.a propos') }}</a></li>
 
-                            <li><a href="" style="color:#000;"> {{ __('messages.Enregistrer un camion') }}</a>
+                            <li><a href="#" style="color:#000;"> {{ __('messages.Enregistrer un camion') }}</a>
                             </li>
-                            <li><a href="" style="color:#000;"> {{ __('messages.Enregistrer un magasin') }}</a>
+                            <li><a href="#" style="color:#000;"> {{ __('messages.Enregistrer un magasin') }}</a>
                             </li>
-                            <li><a href="" style="color:#000;">
+                            <li><a href="#" style="color:#000;">
                                     {{ __('messages.Reservez un espace de stockage') }}</a></li>
                             <li><a href="" style="color:#000;">{{ __('messages.commander une course') }}</a></li>
                         </ul>
@@ -61,13 +59,14 @@
                             <h3 style="color:#000;">{{ __('messages.Navigation') }}</h3>
                         </div>
                         <ul class="list-area">
-                            <li><a href="" style="color:#000;">Services</a></li>
-                            <li><a href="" style="color:#000;">{{ __('messages.Connexion') }}</a></li>
-                            <li><a href="" style="color:#000;">{{ __('messages.Paiement') }} </a></li>
-                            <li><a href="" style="color:#000;">{{ __('messages.Partenaires') }}</a></li>
-                            <li><a href="" style="color:#000;">{{ __('messages.Nos règles') }}</a></li>
+                            <li><a href="{{ route('contact') }}" style="color:#000;">Services</a></li>
+                            {{-- <li><a href="" style="color:#000;">{{ __('messages.Connexion') }}</a></li> --}}
+                            {{-- <li><a href="" style="color:#000;">{{ __('messages.Paiement') }} </a></li> --}}
+                            {{-- <li><a href="" style="color:#000;">{{ __('messages.Partenaires') }}</a></li> --}}
+                            <li><a href="{{ route('politiques') }}"
+                                    style="color:#000;">{{ __('messages.Nos règles') }}</a></li>
                             <li><a href="" style="color:#000;">Kèkè+</a></li>
-                            <li><a href="" style="color:#000;">Contact</a></li>
+                            <li><a href="{{ route('services') }}" style="color:#000;">Contact</a></li>
                         </ul>
                     </div>
                 </div>
