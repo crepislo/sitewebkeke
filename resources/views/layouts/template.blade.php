@@ -162,7 +162,7 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+229 45576610 / +1 (617) 309-8535</a>
+                                    <a href="tel:+11002345909">+229 45576610</a>
                                 </div>
                             </li>
                         </ul>

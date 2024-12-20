@@ -93,7 +93,7 @@
                         <div class="bottom-part">
                             <div class="info">
                                 <p>+229 45576610</p>
-                                <p>++1 (617) 309-8535</p>
+                                <!--<p>+1 (617) 309-8535</p>-->
                             </div>
                             <div class="icon">
                                 <i class="fal fa-arrow-right"></i>

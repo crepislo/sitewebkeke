@@ -19,14 +19,14 @@
                             </p>
                             <p style="color:#000;"><a href="" style="color:#000;">+229 45576610</a></p><br>
 
-                            <h6 style="color:#000;"><a href="" style="color:#000;">Contact USA</a></h6>
-                            <p style="color:#000;">
-                                Cotonou <br>
-                                Bénin<br>
-                                E-mail: contact@kekelogistic.com
-                            </p>
+                            <!--<h6 style="color:#000;"><a href="" style="color:#000;">Contact USA</a></h6>-->
+                            <!--<p style="color:#000;">-->
+                            <!--    Cotonou <br>-->
+                            <!--    Bénin<br>-->
+                            <!--    E-mail: contact@kekelogistic.com-->
+                            <!--</p>-->
 
-                            <p style="color:#000;"><a href="" style="color:#000;">+1 (617) 309-8535</a></p>
+                            <!--<p style="color:#000;"><a href="" style="color:#000;">+1 (617) 309-8535</a></p>-->
 
                             <div class="social-icon d-flex align-items-center">
                                 <a href="#"style="color:#000;"><i class="fab fa-facebook-f"></i></a>
