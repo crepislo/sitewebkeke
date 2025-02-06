@@ -79,7 +79,7 @@
                                             <p style="color:#fff;">Contact </p>
                                         </b>
                                         <h5 style="color:#fff;">
-                                            +1 (617) 309-8535 / +229 45576610
+                                            +229 45576610
                                             <br>
 
                                         </h5>

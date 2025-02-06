@@ -70,7 +70,7 @@
                         </div>
                         <div class="bottom-part">
                             <div class="info">
-                                <p> info@kekelogistic.com</p>
+                                <p>contact@kekelogistic.com</p>
 
                             </div>
                             <div class="icon">
@@ -93,7 +93,7 @@
                         <div class="bottom-part">
                             <div class="info">
                                 <p>+229 45576610</p>
-                                <p>++1 (617) 309-8535</p>
+
                             </div>
                             <div class="icon">
                                 <i class="fal fa-arrow-right"></i>
@@ -114,7 +114,7 @@
                         </div>
                         <div class="bottom-part">
                             <div class="info">
-                                <p>Boston, MA USA</p>
+                                <p>Cotonou Bénin</p>
 
                             </div>
                             <div class="icon">

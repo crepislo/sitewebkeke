@@ -6,11 +6,11 @@
                 <ul class="contact-list">
                     <li>
                         <i class="far fa-envelope"></i>
-                        <a href="info@kekelogistic.com" class="link">info@kekelogistic.com</a>
+                        <a href="info@kekelogistic.com" class="link">contact@kekelogistic.com</a>
                     </li>
                     <li>
                         <i class="fas fa-phone-alt"></i>
-                        <a href="tel:2086660112">+229 45576610 / +1 (617) 309-8535</a>
+                        <a href="tel:2086660112">+229 45576610</a>
                     </li>
                 </ul>
                 <div class="top-right">
