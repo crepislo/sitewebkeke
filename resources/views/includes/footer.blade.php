@@ -21,7 +21,8 @@
                                 <a href="#"style="color:#000;"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" style="color:#000;"><i class="fab fa-twitter"></i></a>
                                 <a href="#"style="color:#000;" class="active"><i class="fab fa-youtube"></i></a>
-                                <a href="#" style="color:#000;"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/company/kekelogistics/" style="color:#000;"><i
+                                        class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
