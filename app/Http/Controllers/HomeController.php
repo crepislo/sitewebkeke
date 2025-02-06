@@ -21,5 +21,9 @@ class HomeController extends Controller
         return view('apropos');
     }
 
+    public function travailler()
+    {
+        return view('travailler');
+    }
     
 }
