@@ -92,7 +92,7 @@
                         </div>
                         <div class="bottom-part">
                             <div class="info">
-                                <p>+229 45576610</p>
+                                <p>+229 0145576610</p>
 
                             </div>
                             <div class="icon">

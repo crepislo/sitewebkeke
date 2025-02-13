@@ -10,7 +10,7 @@
                     </li>
                     <li>
                         <i class="fas fa-phone-alt"></i>
-                        <a href="tel:2086660112">+229 45576610</a>
+                        <a href="tel:2086660112">+229 0145576610</a>
                     </li>
                 </ul>
                 <div class="top-right">

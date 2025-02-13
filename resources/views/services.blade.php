@@ -167,7 +167,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 mt-lg-0 wow fadeInUp mt-5" data-wow-delay=".4s">
                         <div class="feature-image">
-                            <img src="assets/img/choose/magasin-keke.png" alt="img">
+                            <img src="assets/img/choose/magasin-keke.jpg" alt="img">
                         </div>
                     </div>
                 </div>

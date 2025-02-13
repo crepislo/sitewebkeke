@@ -40,13 +40,6 @@
                             <li>{{ __('messages.Analyze prédictive') }}</li>
                             <li>{{ __('messages.Intégration complète') }}</li>
                             <li>{{ __('messages.Évolutivité et flexibilité') }}</li>
-
-
-
-
-
-
-
                             </p>
 
                         </div>
