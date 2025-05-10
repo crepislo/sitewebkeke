@@ -31,3 +31,5 @@ Route::get('politiques', function () {
 Route::get('conditions', function () {
     return view('conditions');
 })->name('conditions');
+
+Route::get('our-data', [HomeController::class, 'viewData'])->name('viewData');

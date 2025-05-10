@@ -25,5 +25,9 @@ class HomeController extends Controller
     {
         return view('travailler');
     }
-    
+
+    public function viewData()
+    {
+        return view('viewData');
+    }
 }
