@@ -8,7 +8,7 @@
 
         <div class="container">
             <div class="page-heading">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s"> {{ __('messages.Contactez-nous') }}</h1>
+                <h1 class="wow fadeInUp" data-wow-delay=".3s"> {{ __('messages.Ourdata') }}</h1>
 
             </div>
         </div>
